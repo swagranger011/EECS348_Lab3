@@ -103,6 +103,7 @@ int main()
 	char myMonth[11][10];
 	float mySales[12];
 
+
 	if (input == NULL)
 	{
 		printf("Error reading File\n");

@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void comboLoop()
+int main()
 {
     int safety = 2, touchconversion = 8, touchpat = 7, touchdown = 6, fieldGoal = 3;
-    int score = 0;
+    int score = 2;
 
     while (score > 1)
     {
@@ -42,10 +42,5 @@ void comboLoop()
             }
         }
     }
-}
-
-int main()
-{
-    comboLoop(); // get rid of the function that the loop is in
     return 0;
 }
